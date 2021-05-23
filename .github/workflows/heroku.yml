@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@main
       - uses: akhileshns/heroku-deploy@master # This is the action
         with:
-          heroku_api_key: ${{ef4e4382-e1ed-42e0-9b6e-8dd96dc34e7c}}
+          heroku_api_key: ${{112b7baa-8d10-4d69-9983-89a64efe9ab7}}
           heroku_app_name: "ncsub01" #Must be unique in Heroku
           heroku_email: ${{mail@nchyn.net}}
           usedocker: true
